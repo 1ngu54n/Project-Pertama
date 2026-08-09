@@ -1,0 +1,26 @@
+Isi File gitignore
+# 1. Next.js & Node.js (Folder berat & cache)
+.next/
+node_modules/
+npm-debug.log*
+
+# 2. Python Backend (Virtual Environment & cache)
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# 3. File Rahasia & Lingkungan (WAJIB!)
+.env
+*.env
+
+# 4. Database (Agar file DB tidak ikut terupload)
+*.db
+*.sqlite3
+
+# 5. Sampah Sistem Operasi (Windows/Mac)
+.DS_Store
+Thumbs.db
+
+# 6. Sampah Editor (VS Code / Cursor)
+.vscode/
